@@ -1,0 +1,25 @@
+/* Reset - removes default browser spacing so we control it ourselves */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(47, 88%, 63%); /* the yellow */
+  font-family: sans-serif; /* we'll swap this for a real font soon */
+}
+.card {
+  width: 100%;
+  max-width: 384px;
+  background-color: hsl(0, 0%, 100%); /* white */
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 8px 8px 0 hsl(0, 0%, 0%); /* hard black offset shadow */
+}
