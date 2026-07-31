@@ -53,6 +53,11 @@ body {
 .card__title-link:hover {
   color: hsl(47, 88%, 63%); /* yellow on hover, matches the design's interaction hint */
 }
+.card__title-link:focus-visible {
+  outline: 2px solid hsl(0, 0%, 0%);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
 .card__content {
   display: flex;
   flex-direction: column;
