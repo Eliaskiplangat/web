@@ -1,0 +1,54 @@
+   *{
+    margin: 0;
+    padding: 0; 
+   }
+   
+   body {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.card-container > div {
+  flex: 1;
+  padding: 2.5rem;
+  color: hsl(0, 0%, 95%);
+}
+
+.card-container > div:nth-child(1) {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card-container > div:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-container > div:nth-child(3) {
+  background-color: hsl(184, 100%, 22%);
+  background-color: hsl(179, 100%, 13%);
+}
+.card-container {
+  display: flex;
+  max-width: 900px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+button {
+  border: none;
+  border-radius: 999px;
+  padding: 0.75rem 2rem;
+  background-color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.7;
+}
+
+.card-container > div h2 {
+  font-family: "Big Shoulders", sans-serif;
+  letter-spacing: 1px;
+}
